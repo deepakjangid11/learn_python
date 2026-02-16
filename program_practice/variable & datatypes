@@ -1,0 +1,26 @@
+Variables in Python :
+
+A variable is used to store data in a program.
+It acts like a container that holds a value.
+
+  
+Example
+name = "Deepak"
+age = 20
+
+Here:
+name and age are variables
+"Deepak" and 20 are values stored in them
+Python does not require you to declare the type of a variable; it automatically detects it.
+
+  
+Data Types in Python :
+
+A data type defines the type of value stored in a variable.
+
+Example Program:
+name = "Deepak"   # string
+age = 20          # integer
+height = 5.7      # float
+student = True    # boolean
+print(name, age, height, student)
