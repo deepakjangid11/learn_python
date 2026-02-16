@@ -25,3 +25,6 @@ Python programs can run on different operating systems like Windows, Linux, and 
 
 Large Standard Library
 Python provides many built-in modules for tasks like math, file handling, and networking.
+
+The most basic Python program is Hello World:-
+print("Hello, World!")
