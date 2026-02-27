@@ -1,0 +1,84 @@
+List Methods in Python
+What are List Methods?
+
+List methods are built-in functions used to add, remove, update, or arrange elements in a list.
+
+Lists are mutable, so these methods modify the original list.
+
+1️⃣ append()
+
+Adds an element at the end of the list.
+
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers)
+
+Output:
+
+[1, 2, 3, 4]
+2️⃣ insert()
+
+Adds an element at a specific index.
+
+numbers = [1, 2, 3]
+numbers.insert(1, 10)
+print(numbers)
+3️⃣ extend()
+
+Adds multiple elements to a list.
+
+a = [1, 2]
+b = [3, 4]
+
+a.extend(b)
+print(a)
+4️⃣ remove()
+
+Removes a specific value.
+
+numbers = [1, 2, 3, 2]
+numbers.remove(2)
+print(numbers)
+
+(Removes first occurrence)
+
+5️⃣ pop()
+
+Removes element using index (default = last).
+
+numbers = [10, 20, 30]
+numbers.pop()
+print(numbers)
+6️⃣ clear()
+
+Removes all elements from the list.
+
+numbers = [1, 2, 3]
+numbers.clear()
+print(numbers)
+7️⃣ index()
+
+Returns index of an element.
+
+numbers = [10, 20, 30]
+print(numbers.index(20))
+8️⃣ count()
+
+Counts occurrences of an element.
+
+numbers = [1, 2, 2, 3]
+print(numbers.count(2))
+9️⃣ sort()
+
+Sorts list in ascending order.
+
+numbers = [4, 1, 3, 2]
+numbers.sort()
+print(numbers)
+🔟 reverse()
+
+Reverses the list.
+
+numbers = [1, 2, 3]
+numbers.reverse()
+print(numbers)
